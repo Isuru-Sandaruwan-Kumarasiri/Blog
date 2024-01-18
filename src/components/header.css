@@ -1,0 +1,33 @@
+nav {
+
+    width: 100vw;
+    height: 5rem;
+    display: grid;
+    place-items: center;
+    background: var(255, 255, 255, 0.5);
+    position: fixed;
+    top: o;
+    left: 0;
+    border-bottom: 4px solid var(--color-bg);
+    backdrop-filter: blur(20px);
+    /*blur karanwa */
+}
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav__logo {
+    display: block;
+    width: 3rem;
+}
+.nav__toggle-btn{
+    display: none;
+}
+.nav__menu{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
