@@ -16,6 +16,7 @@ import AuthorPost from "./pages/AuthorPost"
 import Dashboard from "./pages/DashBoard"
 import Logout from "./pages/Logout"
 import EditPost from "./pages/EditPost"
+import DeletePost from "./pages/DeletePost"
 
 
 
@@ -32,10 +33,11 @@ const router=createBrowserRouter([
       {path:"profile/:id" ,element:<UserProfile/>},
       {path:"authors" ,element:<Authors/>},
       {path:"create" ,element:<CreatePost/>},
-      {path:"posts/categories/:category" ,element:<CategoryPosts/>},
-      {path:"posts/users/:id" ,element:<AuthorPost/>},
-      {path:"myposts/:id" ,element:<Dashboard/>},
+      {path:"post/categories/:category" ,element:<CategoryPosts/>},
+      {path:"post/users/:id" ,element:<AuthorPost/>},
+      {path:"mypost/:id" ,element:<Dashboard/>},
       {path:"mypost/:id/edit" ,element:<EditPost/>},
+      {path:"mypost/:id/Delete" ,element:<DeletePost/>},
       {path:"logout" ,element:<Logout/>}
     ]
 

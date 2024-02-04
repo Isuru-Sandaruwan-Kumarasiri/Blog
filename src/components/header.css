@@ -6,7 +6,7 @@ nav {
     place-items: center;
     background: var(255, 255, 255, 0.5);
     position: fixed;
-    top: o;
+    top: 0;
     left: 0;
     border-bottom: 4px solid var(--color-bg);
     backdrop-filter: blur(20px);
