@@ -17,20 +17,20 @@ function Author() {
     <section className="authors">
       {authors.length > 0 ? (
         <div className="container authors__container">
-          {authors.map(({ id, avatar, posts, name }) => { 
+          {authors.map(({ id, avatar, post, name }) => { 
             return <Link key={id} to={"/posts/users/${id}"}className="author">
               <div className="author__avatar">
                 <img src={avatar} alt={"Image of ${name}"} />
               </div>
               <div className="author__info">
                 <h4>{name}</h4>
-                <p>{posts}</p>
+                <p>{post}</p>
               </div>
             </Link>
           })}
         </div>
       ) : (
-        <h2>No user/authors found</h2>
+        <h2 className="center">No user/authors found</h2>
       )}
     </section>
   );
