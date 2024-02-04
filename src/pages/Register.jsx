@@ -22,7 +22,7 @@ function Register() {
   return (
     <section className="register">
       <div className="container">
-        <h1>Sign Up</h1>
+        <h2>Sign Up</h2>
         <form action="" className="form register__form">
           <p className="form__error-message">This is an error message</p>
           <input
