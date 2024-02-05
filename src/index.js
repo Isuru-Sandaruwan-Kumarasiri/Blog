@@ -36,8 +36,8 @@ const router=createBrowserRouter([
       {path:"post/categories/:category" ,element:<CategoryPosts/>},
       {path:"post/users/:id" ,element:<AuthorPost/>},
       {path:"mypost/:id" ,element:<Dashboard/>},
-      {path:"mypost/:id/edit" ,element:<EditPost/>},
-      {path:"mypost/:id/Delete" ,element:<DeletePost/>},
+      {path:"post/:id/edit" ,element:<EditPost/>},
+      {path:"post/:id/Delete" ,element:<DeletePost/>},
       {path:"logout" ,element:<Logout/>}
     ]
 
