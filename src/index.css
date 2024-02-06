@@ -286,3 +286,16 @@ input,select,textarea{
     display: flex;
     gap: 1rem;
 }
+
+
+/* =====================react quill======================= */
+.ql-editor{
+    overflow: hidden;
+    background:var(--color-white);
+    height: 16rem !important;
+
+}
+.create-post__form input{
+   margin-bottom: 0.5rem;
+}
+
