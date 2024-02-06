@@ -32,6 +32,7 @@ function Login() {
             name="email"
             value={useData.email}
             onChange={changeInputHandle}
+            autoFocus
           />
           <input
             type="text"
