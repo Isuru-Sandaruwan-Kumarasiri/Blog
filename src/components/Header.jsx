@@ -13,7 +13,7 @@ function Header() {
         </Link>
         <ul className="nav__menu">
           <li>
-            <Link to="/profile">Isuru Sandaruwan</Link>
+            <Link to="/profile/gfgf">Isuru Sandaruwan</Link>
           </li>
           <li>
             <Link to="/create">Create</Link>
