@@ -359,3 +359,22 @@ input,select,textarea{
     margin-inline: auto;
     width: var(--form-width);
 }
+
+
+/* =====================Media queries(small devices)======================= */
+@media screen and (max-width:800px) {
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 1.4rem;
+    }
+    h3{
+        font-size: 1.2rem;
+    }
+    .container{
+        width:var(--container-width-md) ;
+    }
+    /* NAVBAR */
+   
+}

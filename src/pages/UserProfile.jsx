@@ -50,10 +50,10 @@ function UserProfile() {
             <p className="form__error-message">This is an error message</p>
             <input type="text" placeholder="full name" value={name} onChange={e=>setName(e.target.value)} />
             <input type="email" placeholder="Email" value={email} onChange={e=>setemail(e.target.value)} />
-            <input type="password" placeholder="current password" value={curreentPassword} onChange={e=>setCurreentPasspassword(e.target.value)} />
+            <input type="password" placeholder="current password" value={curreentPassword} onChange={e=>setCurreentPassword(e.target.value)} />
             <input type="password" placeholder="New Password" value={newPassword} onChange={e=>setNewPassword(e.target.value)} />
-            <input type="password" placeholder="confirm new password" value={name} onChange={e=>setconfirmPasswordd(e.target.value)} />
-
+            <input type="password" placeholder="confirm new password" value={confirmPassword} onChange={e=>setconfirmPasswordd(e.target.value)} />
+            <button type="submit" className="btn primary">Updata Details</button>
           </form>
         </div>
       </div>
