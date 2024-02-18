@@ -376,5 +376,23 @@ input,select,textarea{
         width:var(--container-width-md) ;
     }
     /* NAVBAR */
+    .nav__menu{
+        position: relative;
+        top: 5rem;
+        right: 0;
+        flex-direction: column;
+        gap: 0;
+    }
+    .nav__menu li{
+        width: 100%;
+        box-shadow: -2rem 4rem 4rem rgb(0, 0,0,0.26);
+        padding: 0;
+        gap: 0;
+    }
+    .nav__menu li a{
+        display: block;
+        background: var(--color-white);
+        padding: 0.85rem 2.5rem;
+    }
    
 }

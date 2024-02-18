@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 import { FaBars } from "react-icons/fa";
-import "./header.css"
+import "./header.css";
 
 function Header() {
   return (
@@ -12,18 +12,19 @@ function Header() {
           <img src={logo} alt="Navbar Logo" />
         </Link>
         <ul className="nav__menu">
-          <li>
-            <Link to="/profile/gfgf">Isuru Sandaruwan</Link>
-          </li>
-          <li>
-            <Link to="/create">Create</Link>
-          </li>
-          <li>
-            <Link to="/authors">Authors</Link>
-          </li>
-          <li>
-            <Link to="/logout">Logout</Link>
-          </li>
+            <li>
+              <Link to="/profile/gfgf">Isuru Sandaruwan</Link>
+            </li>
+            <li>
+              <Link to="/create">Create</Link>
+            </li>
+            <li>
+              <Link to="/authors">Authors</Link>
+            </li>
+          
+            <li>
+              <Link to="/logout">Logout</Link>
+            </li>
         </ul>
         <button className="nav__toggle-btn">
           <FaBars />
