@@ -378,7 +378,7 @@ input,select,textarea{
     /* NAVBAR */
     .nav__menu{
         position: relative;
-        top: 5rem;
+        top: 8rem;
         right: 0;
         flex-direction: column;
         gap: 0;
@@ -393,6 +393,12 @@ input,select,textarea{
         display: block;
         background: var(--color-white);
         padding: 0.85rem 2.5rem;
+    }
+    .nav__toggle-btn {
+        display: inline-block;
+        /* background: transparent; */
+        font-size: 1.5rem;
+        cursor: pointer;
     }
    
 }
